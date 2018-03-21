@@ -1,0 +1,18 @@
+{
+  "uegteste": [
+    {
+      "id": 1,
+      "name": "Danilo",
+      "email": "email@email.com.br",
+      "cpf_cnpj": "99999999",
+      "password": "123456"
+    },
+    {
+      "name": "Teste",
+      "email": "teste@email.com",
+      "cpf_cnpj": "03531157116",
+      "password": "123456",
+      "id": 2
+    }
+  ]
+}
