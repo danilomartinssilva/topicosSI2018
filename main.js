@@ -55,8 +55,15 @@ var password = document.getElementById("password").value;
 		$.post(url,{'name':name,
 					'email':email,
 					'cpf_cnpj':cpf_cnpj,
-					'passowrd':password
+					'password':password
 		});
+		//window.location.href = "list.html";
+
+		setTimeout(function(){
+			window.location.href="list.html";
+			
+		},5000)
+
 
 		//$.post(url,{'name':name,'email':cpf,'cpf_cnpj':cpf_cnpj,'password':password});
 		
